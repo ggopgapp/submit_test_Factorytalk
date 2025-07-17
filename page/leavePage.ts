@@ -1,4 +1,4 @@
-import { Page, Locator, expect } from "@playwright/test";
+import { Page, Locator } from "@playwright/test";
 import * as func from "../utils/function";
 export class leavePage {
   readonly page: Page;

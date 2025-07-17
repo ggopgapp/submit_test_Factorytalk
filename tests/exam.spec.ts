@@ -9,7 +9,7 @@ test("Login with valid user", async ({ loginPage }) => {
   await loginPage.expectLogin();
 });
 
-test.only("Create a new leave request successfully", async ({ leavePage }) => {
+test("Create a new leave request successfully", async ({ leavePage }) => {
   await leavePage.assignLeave();
 });
 

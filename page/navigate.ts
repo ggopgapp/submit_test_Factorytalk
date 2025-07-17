@@ -1,4 +1,4 @@
-import { Page, Locator, expect } from "@playwright/test";
+import { Page } from "@playwright/test";
 export class Navigates {
   readonly page: Page;
 
@@ -9,6 +9,4 @@ export class Navigates {
   async gotoWebsite(website: string) {
     await this.page.goto(website);
   }
-
-//   async leavePage
 }
