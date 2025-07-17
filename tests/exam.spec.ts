@@ -9,10 +9,10 @@ test("Login with valid user", async ({ loginPage }) => {
   await loginPage.expectLogin();
 });
 
-test("Create a new leave request successfully", async ({ leavePage }) => {
+test.only("Create a new leave request successfully", async ({ leavePage }) => {
   await leavePage.assignLeave();
 });
 
-test.only("View list of leave requests", async ({ leavePage }) => {
+test("View list of leave requests", async ({ leavePage }) => {
   await leavePage.myLeave();
 });
